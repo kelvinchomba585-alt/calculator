@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+  font-family: sans-serif;
+}
+
+.calculator {
+  background: #222;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.screen {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: right;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.topbutton {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.topbutton button {
+  flex: 1;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.keypad button {
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
